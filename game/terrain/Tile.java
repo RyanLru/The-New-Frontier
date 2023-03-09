@@ -1,7 +1,5 @@
 package game.terrain;
 
-package game.terrain;
-
 public class Tile {
     private final TileType type;
     private int durability;

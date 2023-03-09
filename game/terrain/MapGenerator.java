@@ -1,7 +1,6 @@
 package game.terrain;
 
 import java.util.Random;
-import Resource;
 
 
 public class MapGenerator {

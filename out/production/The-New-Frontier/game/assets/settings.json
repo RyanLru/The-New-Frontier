@@ -1,0 +1,10 @@
+{
+  "FPS": 60,
+  "tileSize": 32,
+  "playerSpeed": 3,
+  "playerInventorySize": 20,
+  "factoryMaxHealth": 100,
+  "conveyorMaxHealth": 50,
+  "resourceMaxStack": 100,
+  "soundVolume": 0.5
+}

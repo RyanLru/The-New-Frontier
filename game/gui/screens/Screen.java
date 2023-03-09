@@ -1,7 +1,7 @@
 package game.gui.screens;
 
 
-import javax.swing.JPanel;
+import javax.swing.*;
 
 /**
  * Une classe abstraite représentant un écran du jeu.
@@ -9,7 +9,7 @@ import javax.swing.JPanel;
  * une méthode pour dessiner son contenu, ainsi que des méthodes pour
  * réagir aux événements utilisateur (clics de souris, touches clavier, etc.).
  */
-public class Screen extends JPanel {
+public abstract class Screen extends JPanel {
 
     private final ScreenManager screenManager;
 
@@ -19,6 +19,11 @@ public class Screen extends JPanel {
      */
     public Screen(ScreenManager screenManager) {
         this.screenManager = screenManager;
+    }
+
+    public Screen() {
+
+        screenManager = null;
     }
 
     /**
@@ -58,5 +63,7 @@ public class Screen extends JPanel {
         return screenManager;
     }
 
+    public void show(JFrame window) {
+    }
 }
 
