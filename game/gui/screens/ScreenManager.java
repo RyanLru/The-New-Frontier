@@ -1,6 +1,5 @@
 package game.gui.screens;
 
-package game;
 
 import java.util.HashMap;
 

@@ -48,7 +48,6 @@ public class MainMenuScreen {
         this.quitButton.draw(g);
     }
 
-    @Override
     public void update() {
         // Ne fait rien
     }

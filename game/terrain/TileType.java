@@ -16,4 +16,7 @@ public class TileType {
     public int getTextureIndex() {
         return textureIndex;
     }
+
+    public int getDurability() {
+    }
 }
