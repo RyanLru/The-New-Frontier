@@ -1,4 +1,4 @@
-package game.terrain;
+/*package game.terrain;
 
 import java.util.Random;
 
@@ -42,3 +42,4 @@ public class Terrain {
         return height;
     }
 }
+*/

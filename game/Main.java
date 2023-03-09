@@ -1,4 +1,4 @@
-package game;
+/*package game;
 
 import game.assets.Assets;
 import game.assets.Settings;
@@ -72,4 +72,4 @@ public class Main {
             }
         }
     }
-}
+}*/

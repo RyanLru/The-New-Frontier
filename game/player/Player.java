@@ -1,4 +1,4 @@
-package game.player;
+/*package game.player;
 
 import game.items.Item;
 
@@ -69,3 +69,4 @@ public class Player {
                 () == inventorySize;
     }
 }
+*/

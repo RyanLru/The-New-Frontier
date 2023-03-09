@@ -1,4 +1,4 @@
-package game.terrain;
+/*package game.terrain;
 
 public class Tile {
     private final TileType type;
@@ -20,4 +20,4 @@ public class Tile {
     public void setDurability(int durability) {
         this.durability = durability;
     }
-}
+}*/

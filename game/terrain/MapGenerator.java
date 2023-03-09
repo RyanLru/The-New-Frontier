@@ -1,4 +1,4 @@
-package game.terrain;
+/*package game.terrain;
 
 import java.util.Random;
 
@@ -38,7 +38,7 @@ public class MapGenerator {
 
         return map;
     }
-}
+}*/
 
 
 

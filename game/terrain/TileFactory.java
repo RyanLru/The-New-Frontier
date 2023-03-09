@@ -1,4 +1,4 @@
-package game.terrain;
+/*package game.terrain;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -39,4 +39,4 @@ public class TileFactory {
     }
 }
 
-
+*/

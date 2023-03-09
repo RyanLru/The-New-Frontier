@@ -1,4 +1,4 @@
-package game.gui.screens;
+/*package game.gui.screens;
 
 
 import java.util.HashMap;
@@ -31,5 +31,4 @@ public class ScreenManager {
 
     public void addScreen(MainMenuScreen mainMenuScreen) {
     }
-}
-
+}*/

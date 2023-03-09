@@ -1,4 +1,4 @@
-package game.gui.screens;
+/*package game.gui.screens;
 
 
 import game.player.Player;
@@ -34,3 +34,4 @@ public class GameScreen extends Screen {
     }
 }
 
+*/

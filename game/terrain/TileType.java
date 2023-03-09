@@ -1,4 +1,4 @@
-package game.terrain;
+/*package game.terrain;
 
 public class TileType {
     private final String name;
@@ -20,3 +20,4 @@ public class TileType {
     public int getDurability() {
     }
 }
+*/
