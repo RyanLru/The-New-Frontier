@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="batik.gui.util" type="repository">
+    <properties maven-id="batik:batik-gui-util:1.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/batik/batik-gui-util/1.7/batik-gui-util-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
