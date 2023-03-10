@@ -13,8 +13,14 @@ public class Map {
         this.width = width;
         this.height = height;
 
-        Noise noise = new Noise();
-        noiseMap = noise.generatePerlinNoise(width, height, 8, 0.5, 2);
+        Noise noise = new Noise(1542665L);
+        noiseMap = new double[width][height];
+        for (int x = 0; x < width; x++) {
+            for (int y = 0; y < height; y++) {
+                double noiseValue = noise.noise(x / 100.0, y / 100.0, 0);
+                noiseMap[x][y] = noiseValue;
+            }
+        }
     }
 
     public BufferedImage generateMap() {
