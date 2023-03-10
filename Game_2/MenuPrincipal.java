@@ -1,10 +1,11 @@
 package Game_2;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class MenuPrincipal {
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("Menu principal");
+    public static void main() {
+        JFrame frame = new JFrame("The New Frontier");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 400);
 

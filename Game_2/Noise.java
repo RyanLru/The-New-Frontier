@@ -59,12 +59,28 @@ public class Noise {
         return a + t * (b - a);
     }
 
-    private double grad(int hash, double x, double y, double z) {
+    private static final int[] GRADIENTS = {
+            1, 1, 0, -1, 1, 0, 1, -1, 0, -1, -1, 0,
+            1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, -1,
+            0, 1, 1, 0, -1, 1, 0, 1, -1, 0, -1, -1
+    };
+
+    private double grad3(int hash, double x, double y, double z) {
         int h = hash & 15;
         double u = h < 8 ? x : y;
         double v = h < 4 ? y : h == 12 || h == 14 ? x : z;
         return ((h & 1) == 0 ? u : -u) + ((h & 2) == 0 ? v : -v);
     }
+
+
+    private double grad(int hash, double x, double y, double z) {
+        int h = hash & 15;
+        double u = h < 8 ? x : y;
+        double v = h < 4 ? y : h == 12 || h == 14 ? x : z;
+        int idx = permutation[hash % 256] + h;
+        return lerp(fade(u), fade(v), fade(z)) * (grad3(P[idx], x - (idx >= 8 ? 1 : 0), y - (idx >= 4 && idx < 12 ? 1 : 0), z - (idx >= 2 ? 1 : 0)) + grad3(P[idx + 1], x - (idx >= 8 ? 1 : 0), y - (idx >= 4 && idx < 12 ? 1 : 0), z - 1 - (idx >= 2 ? 1 : 0)));
+    }
+
 
     public double noise(double x, double y, double z) {
         int X = (int) Math.floor(x) & 255;
