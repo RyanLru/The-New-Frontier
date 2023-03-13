@@ -11,5 +11,6 @@
     <orderEntry type="library" name="batik.gui.util" level="project" />
     <orderEntry type="library" name="The-New-Frontier" level="project" />
     <orderEntry type="library" name="raylabz.opensimplex" level="project" />
+    <orderEntry type="library" name="io7m.jnoisetype.api" level="project" />
   </component>
 </module>

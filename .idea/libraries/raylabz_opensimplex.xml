@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="raylabz.opensimplex" type="repository">
+    <properties maven-id="com.raylabz:opensimplex:1.0.3" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/raylabz/opensimplex/1.0.3/opensimplex-1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
